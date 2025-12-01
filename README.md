@@ -1,22 +1,18 @@
-Ce dépôt contient plusieurs petits composants ou projets construits dans un but d'apprentissage et d'exploration. Chaque section m’a permis de comprendre et tester des fonctionnalités clés de React avec TypeScript.
+Ce dépôt contient un projet DBZ autonome construit dans un but d'apprentissage et d'exploration.  
+Il permet de comprendre et de tester des fonctionnalités clés de **React avec TypeScript**, notamment la gestion d’état, les modales, et les animations.
+
 
 ## 🧱 Structure
 
-Le projet contient plusieurs composants/test que je peux activer/désactiver facilement dans `App.tsx` :
+Le projet contient principalement :
 
-```tsx
-// App.tsx
-<>
-  {/* <Counter /> */}
-  {/* <ContactForm /> */}
-  {/* <TodoList /> */}
-  {/* <ToggleMessage /> */}
-  {/* <Boucles /> */}
-  {/* <TestMethods /> */}
-  {/* <Panier /> */}
-  <Personnages />  // projet actif actuel
-</>
-```
+- `src/components/Personnages/` : composant principal affichant les cartes de personnages DBZ
+- `src/data/personnagesDBZ.ts` : données des personnages
+- `src/interfaces/Personnage.ts` : interface TypeScript
+- `public/assets/images/dbz/` : images des personnages
+- `public/assets/audio/` : sons associés aux personnages
+
+Le composant **Personnages** est le projet actif actuellement et peut être affiché directement dans `App.tsx`.
 
 ## 💥 Projet en cours
 
